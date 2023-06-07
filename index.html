@@ -5,58 +5,92 @@
     <title>HTML&CSS</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body style="margin: 0; padding: 0;">
 
     <!-- Header -->
-    <header style="background-color: aliceblue; position: sticky; top: 0; display: flex; flex-direction: row; justify-content: space-between;">
-        <a href="#pavasaris">Šeit ir virsraksts, kurš paliek galvenes daļā.</a>
-        <h1>Virsraksts</h1>
-        <div>
-            <a href="#vasara">Vasara</a>
-            <a href="#plava">Uzdevumi</a>
+    <header>
+        <div id="navigation">
+            <a class="d-flex-align-center" href="#pavasaris">Šeit ir virsraksts, kurš paliek galvenes daļā.</a>
+            <h1>Virsraksts</h1>
+            <div class="d-flex-align-center">
+                <a class="padding-3" href="#vasara">Vasara</a>
+                <a class="padding-3" href="#plava">Uzdevumi</a>
+            </div>
         </div>
     </header>
 
-    <div id="pavasaris">
+    <div id="pavasaris" class="season">
         <img src="resources/Pavasaris.jpg" alt="Pavasaris">
         <div>
             <h1>Pavasaris</h1>
+            <p style="margin:5px">It is a long established fact that a reader will be distracted by the readable content of
+                a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                distribution of letters, as opposed to using 'Content here, content here', making it look like readable
+                English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
+                model
+                text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected
+                humour
+                and the like).
+            </p>
         </div>
-        <div id="vasara">
-            <img src="resources/Vasara.jpg" alt="Vasara">
-            <h1>Šeit ir apraksts, kuram ir jāatrodas bildei kreisajā pusē.</h1><br>
-        </div>
+    </div>
+    <div id="vasara">
+        <img src="resources/Vasara.jpg" alt="Vasara">
+        <h1>Šeit ir apraksts, kuram ir jāatrodas bildei kreisajā pusē.</h1><br>
+        <p>It is a long established fact that a reader will be distracted by the readable content of
+            a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using 'Content here, content here', making it look like readable
+            English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
+            model
+            text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+            Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected
+            humour
+            and the like).
+        </p>
+    </div>
 
-        <div id="plava" style="display: flex; flex-direction: row;">
-            <div style="display: block;">
-                <img style="display: block; width:100%" src="resources/Plava.jpg" alt="Plava">
-            </div>
-            <div style="display: block;">
-                <h1>Šeit apraksts, kuram ir jāatrodas bildes labajā pusē.</h1>
-            </div>
+    <div id="plava" style="display: flex; flex-direction: row;">
+        <div style="display: block;">
+            <img style="display: block; width:100%" src="resources/Plava.jpg" alt="Plava">
         </div>
-
-        <!-- Exercises -->
-        <div id="exercises">
-            <h1>Uzdevumi</h1><br>
-            <p>Nomaini visiem tekstiem fontu.</p>
-            <p>Sakārto bilžu un tekstu novietojumu.</p>
-            <p>Pieliec tekstu zem virsrakstiem.</p>
-            <p>Pārtaisi uzdevumu sadaļu, izmantojot HTML atbilstošu tagu, lai izveidotu sarakstu.</p>
-            <p>Pieliec stilu header daļai, lai tā atgādinātu header.</p>
-            <p>Pieliec stilu footer daļai, lai teksts būtu centrā un elements izskatītos pēc footer.</p>
-            <p>Augšējo bildi formatē tā, lai tiktu aizņemts viss ekrāna platums.</p>
-            <p>Pievieno karti.</p>
-            <p>Pievieno tabulu, kurai būtu vismaz 2 kolonnas un 3 rindas.</p>
+        <div style="display: block;">
+            <h1>Šeit apraksts, kuram ir jāatrodas bildes labajā pusē.</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of
+                a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                distribution of letters, as opposed to using 'Content here, content here', making it look like readable
+                English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default
+                model
+                text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.
+                Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected
+                humour
+                and the like).
+            </p>
         </div>
+    </div>
 
-        <!-- Footer -->
-        <footer>
-            <p>Šeit ir tukšs footers</p>
-            <p>Šeit ir tukšs footers vēlreiz</p>
-        </footer>
+    <!-- Exercises -->
+    <h1>Uzdevumi</h1><br>
+    <ul id="exercises">
+        <li>Nomaini visiem tekstiem fontu.</li>
+        <li>Sakārto bilžu un tekstu novietojumu.</li>
+        <li>Pieliec tekstu zem virsrakstiem.</li>
+        <li>Pārtaisi uzdevumu sadaļu, izmantojot HTML atbilstošu tagu, lai izveidotu sarakstu.</li>
+        <li>Pieliec stilu header daļai, lai tā atgādinātu header.</li>
+        <li>Pieliec stilu footer daļai, lai teksts būtu centrā un elements izskatītos pēc footer.</li>
+        <li>Augšējo bildi formatē tā, lai tiktu aizņemts viss ekrāna platums.</li>
+        <li>Pievieno karti.</li>
+        <li>Pievieno tabulu, kurai būtu vismaz 2 kolonnas un 3 rindas.</li>
+    </ul>
+
+    <!-- Footer -->
+    <footer>
+        <p>Šeit ir tukšs footers</p>
+        <p>Šeit ir tukšs footers vēlreiz</p>
+    </footer>
 
 </body>
 
