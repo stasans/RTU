@@ -9,3 +9,7 @@
 - https://www.w3schools.com/
 - https://www.learn-html.org/
 - https://validator.w3.org/
+
+## Git
+- https://learngitbranching.js.org/
+- https://www.makeuseof.com/git-learn-interactive-resources/
