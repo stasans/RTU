@@ -9,6 +9,7 @@
 - https://www.w3schools.com/
 - https://www.learn-html.org/
 - https://validator.w3.org/
+- https://www.youtube.com/@kodejam5565
 
 ## Git
 - https://learngitbranching.js.org/
