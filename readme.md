@@ -104,3 +104,8 @@
 - https://developer.mozilla.org/en-US/docs/Learn/Forms/Test_your_skills:_Advanced_styling
 - https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_tasks
 
+
+## Interesanti
+- https://developer.mozilla.org/en-US/blog/introducing-the-mdn-playground/
+- https://devtoolstips.org/
+- https://www.codecademy.com/catalog/language/html-css
